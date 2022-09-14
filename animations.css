@@ -81,6 +81,18 @@ html, body{
     animation-timing-function: linear;
     
 }
+.logo{
+    position: absolute;
+    width: 200px;
+    top: 120px;
+    opacity: 0.5;
+    animation-name: move;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+}
 @keyframes drive{
     from{ transform: translateX(-100px);}
     to{ transform: translateX(2300px);}
